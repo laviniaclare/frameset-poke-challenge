@@ -14,23 +14,15 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the main page. You can click on the name of a pokemon to see it's detail page.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This was created using the [PokeApi](https://pokeapi.co/docs/v2)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Future Improvements
+This is a very simple interface with pretty boring funcionality. Some things that I think would make it better/more fun are:
+- A search function
+- Pagination on the front page
+- Sorting and filtering functionality on the front page. It would be nice to be able to sort them aphabetically, or filter by type, for example.
+- The pokemon detail page could have links to other evolutions
+- It would be nice to be able to click on a move on the pokemon detail page and see other pokemon that can learn that move, and pokemon who are weak to that move
+- This could be built out to have landing and detail pages for other things, like berries and locations. Perhaps the front page could have tabs for each category of things instead of one static list
